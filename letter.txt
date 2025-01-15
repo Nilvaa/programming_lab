@@ -1,0 +1,6 @@
+Blockchain technology is a decentralized 
+and distributed ledger system that securely
+ records and stores data across multiple computers in a network.
+
+This technology ensures transparency,
+ security, and immutability of the data, making it resistant to fraud or unauthorized changes.

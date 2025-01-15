@@ -1,0 +1,7 @@
+f=open("letter.txt","a")
+f.write("Blockchain technology is a decentralized and distributed ledger system that securely records and stores data across multiple computers in a network.\n\nThis technology ensures transparency, security, and immutability of the data, making it resistant to fraud or unauthorized changes.")
+f.close()
+f2=open("letter.txt","r")
+read=f2.read()
+print(read)
+f2.close()
