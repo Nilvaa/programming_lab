@@ -1,8 +1,9 @@
-x=[int(i) for i in input("enter integers:").split()]
-y=[int(i) for i in input("enter second list:").split()]
-same=len(x)==len(y)
-sum1=sum(x)==sum(y)
-com=[i for i in x if i in y]
-print(same)
-print(sum1)
-print(com)
+st=input("enter a string:")
+if len(st)>=3:
+    if st.endswith("ing"):
+        res=st+"ly"
+    else:
+        res=st+"ing"
+else:
+    res=st
+print("modified:",res)

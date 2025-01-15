@@ -1,4 +1,9 @@
-f_n=["fina","Anna","joanna","aiyra"]
-co=sum(n.lower().count('a') for n in f_n)
-print(f_n)
-print(co)
+st=input("enter a string:")
+fr={}
+for c in st:
+    if c in fr:
+        fr[c]+=1
+    else:
+        fr[c]=1
+for c,count in fr.items():
+    print(c,":",count)

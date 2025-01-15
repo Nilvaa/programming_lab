@@ -1,10 +1,5 @@
-s=input("enter list of integers:")
-num=s.split()
-re=[]
-for n in num:
-    i=int(n)
-    if i>100:
-        re.append("over")
-    else:
-        re.append(i)
-print(re)
+n=int(input("enter number:"))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(i*j,end=' ')
+    print()

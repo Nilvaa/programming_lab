@@ -1,4 +1,10 @@
-s,f=map(int,input("enter starting and ending years:").split())
-for i in range(s,f+1):
-    if i%400==0 or 1%100!=0 and i%4==0:
-        print(i)
+n=int(input("enter a number:"))
+f=0
+s=1
+print(f)
+print(s)
+for i in range(0,n-2):
+    t=f+s
+    print(t)
+    f=s
+    s=t

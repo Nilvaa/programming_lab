@@ -1,5 +1,3 @@
-s=input("enter a string:")
-if s:
-    f=s[0]
-    m=f+s[1:].replace(f,'$')
-    print(m)
+word=input("enter words:").split()
+l_w=max(word,key=len)
+print("longest word:",l_w)
